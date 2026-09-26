@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function AdviceGenerator() {
+export default function AdviceGenerator() {
   const [advice, setAdvice] = useState("");
 
   async function getAdvice() {
@@ -13,5 +13,9 @@ function AdviceGenerator() {
     getAdvice();
   }, []);
 
-  return <p>{advice}</p>;
+  return (
+    <div>
+      <p>{advice}</p>;<button onClick={getAdvice}></button>;
+    </div>
+  );
 }
