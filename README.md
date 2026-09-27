@@ -7,7 +7,9 @@ A random advice generator built as a solution to a [Frontend Mentor](https://www
 
 A new piece of advice is loaded automatically when the page opens. Clicking the dice icon fetches a fresh, random piece of advice from a live API, along with its advice number.
 
+## Preview
 
+![Advice Generator preview](./Preview.jpg)
 
 ## Features
 
